@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Monitor, Code, Compass, Zap, PenTool, Braces, LucideIcon } from 'lucide-react';
+import { Monitor, Code, Compass, Zap, Braces, LucideIcon } from 'lucide-react';
 
 interface ProductFeature {
   id: string;

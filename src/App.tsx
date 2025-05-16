@@ -12,10 +12,6 @@ import Team from './pages/TeamPage';
 import Contact from './pages/ContactPage';
 import Product from './pages/ProductPage';
 
-// Import components
-import Navbar from './components/shared/Navbar';
-import Footer from './components/shared/Footer';
-
 function AnimatedRoutes() {
   const location = useLocation();
 

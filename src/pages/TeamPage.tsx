@@ -76,10 +76,10 @@ export default function Team() {
               <p className="text-primary mb-4">{member.role}</p>
               <p className="text-gray-400 mb-6">{member.bio}</p>
               <div className="flex justify-center space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://example.com" className="text-gray-400 hover:text-white">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="mailto:ashishsarmah11@gmail.com" className="text-gray-400 hover:text-white">
                   <Mail className="h-5 w-5" />
                 </a>
               </div>
