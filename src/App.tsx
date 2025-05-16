@@ -10,6 +10,7 @@ import Vision from './pages/VisionPage';
 // import WhatWeAreBuilding from './pages/whatWeArePage';
 import Team from './pages/TeamPage';
 import Contact from './pages/ContactPage';
+import Product from './pages/ProductPage';
 
 // Import components
 import Navbar from './components/shared/Navbar';
@@ -26,6 +27,7 @@ function AnimatedRoutes() {
         {/* <Route path="/what-we-are-building" element={<WhatWeAreBuilding />} /> */}
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Product />} />
       </Routes>
     </AnimatePresence>
   );
